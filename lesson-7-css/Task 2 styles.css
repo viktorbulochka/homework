@@ -1,0 +1,19 @@
+body {
+    font-size: 20px;
+}
+
+.Ein {
+    color: #ff7700;
+}
+
+.Zwei {
+    color: #666666;
+}
+
+span {
+    display: inline-block;
+    color: orange;
+    width: max-content;
+    transform: scaleX(-1);
+}
+
