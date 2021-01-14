@@ -1,10 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 1</title>
+    <style>
+        body {
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+
+        h1 {
+            color: orange;
+            text-align: right;
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        h2:first-of-type {
+            color: orange;
+            text-align: left;
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        h2:last-of-type {
+            color: blue;
+            text-align: left;
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        p:first-letter {
+            color: red;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        p em {
+            background-color: green;
+            color: white;
+            font-weight: bold;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .veg {
+            color: red;
+        }
+
+        ol:not(.veg,.fr2) {
+            color: gray;
+        }
+
+        ol:not(.veg,.fr1) {
+            color: green;
+        }
+
+        table {
+            border-collapse: separate;
+            border: 1px solid black;
+            width: 400px;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid #000;
+        }
+
+        .Name {
+            color: orange;
+            text-align: left;
+        }
+
+        .not {
+            font-weight: bold;
+        }
+
+        td:not(.not,.Name) {
+            background-color: green;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container">
+    <h1>Селекторы</h1>
+    <p>
+        Поверхность Мохо несовершенна. Сталагмит <em>зеркально</em> отражает кризис.<br>
+        Аутизм притягивает гомеостаз. Распространение вулканов осознает экспериментальный<br> ортоклаз.
+        Наш современник стал особенно чутко относиться к слову, однако<br> психоанализ значительно
+        иллюстрирует интеграл Гамильтона, как и предполагалось<br>. Денудация <em>положительна</em>
+    </p>
+    <p>
+        Механизм власти фактически означает механизм власти. <em>Очевидно</em>, что упаривание<br>
+        теоритически катализирует полимолекулярный ассоциат. Мицелла лимитированно<br> возбуждает
+        диэтиловый эфир. Политическая психология гомологична. Впервые<br> газовые гидраты были описаны
+        Гемфри Дэви в 1810 году, <em>однако</em> унитарное<br> государство ядовито.
+    </p>
+    <h2>Огород</h2>
+    <ul>
+        <li>
+            <span>Фрукты:</span>
+            <ol class="fr1">
+                <li>Апельсин</li>
+                <li>Слива</li>
+                <li>Яблоко</li>
+            </ol>
+        </li>
+        <li>
+            <span>Овощи:</span>
+            <ol class="veg">
+                <li>Помидор</li>
+                <li>Картошка</li>
+                <li>Огурец</li>
+            </ol>
+        </li>
+    </ul>
+    <h2>Склад</h2>
+    <ul>
+        <li>
+            <span>Фрукты:</span>
+            <ol class="fr2">
+                <li>Вишня</li>
+                <li>Груша</li>
+                <li>Яблоко</li>
+            </ol>
+        </li>
+        <li>
+            <span>Овощи:</span>
+            <ol class="veg">
+                <li>Картошка</li>
+                <li>Баклажан</li>
+            </ol>
+        </li>
+    </ul>
+    <table>
+        <tr>
+            <td rowspan="2" class="not">Студенты</td>
+            <td colspan="3" class="not">Посещение</td>
+        </tr>
+        <tr>
+            <td class="not">Урок 1</td>
+            <td class="not">Урок 2</td>
+            <td class="not">Урок 3</td>
+        </tr>
+        <tr>
+            <td class="Name">Саша</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td class="Name">Таня</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="Name">Сережа</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+</div>
 </body>
 </html>
