@@ -57,13 +57,25 @@
             color: red;
         }
 
-        ol:not(.veg,.fr2) {
-            color: gray;
+        .fr1 {
+            color: grey;
         }
 
-        ol:not(.veg,.fr1) {
+        .fr2 {
             color: green;
         }
+
+        /*Этот код работает у меня только на файрфоксе на моем пк.В оста*/
+        /*льных браузерах не отображается, как мы с вами видели на занятии.*/
+        /*На пк ПВТ и на машине соседа - результат такой же.*/
+
+        /*ol:not(.veg,.fr2) {*/
+        /*    color: gray;*/
+        /*}*/
+
+        /*ol:not(.veg,.fr1) {*/
+        /*    color: green;*/
+        /*}*/
 
         table {
             border-collapse: separate;
@@ -85,10 +97,18 @@
             font-weight: bold;
         }
 
-        td:not(.not,.Name) {
+        .num {
             background-color: green;
             color: white;
         }
+
+        /*Неработающию код заменил на класс и по нему и */
+        /*оформил в нужном виде*/
+
+        /*td:not(.not,.Name) {*/
+        /*    background-color: green;*/
+        /*    color: white;*/
+        /*}*/
     </style>
 </head>
 <body>
@@ -155,21 +175,21 @@
         </tr>
         <tr>
             <td class="Name">Саша</td>
-            <td>1</td>
-            <td>1</td>
-            <td>0</td>
+            <td class="num">1</td>
+            <td class="num">1</td>
+            <td class="num">0</td>
         </tr>
         <tr>
             <td class="Name">Таня</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td class="num">1</td>
+            <td class="num">1</td>
+            <td class="num">1</td>
         </tr>
         <tr>
             <td class="Name">Сережа</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td class="num">0</td>
+            <td class="num">0</td>
+            <td class="num">0</td>
         </tr>
     </table>
 </div>
