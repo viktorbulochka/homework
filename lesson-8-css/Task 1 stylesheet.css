@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+.a {
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.b {
+    padding-bottom: 3px;
+}
