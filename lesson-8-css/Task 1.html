@@ -2,9 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Task 1</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
 </head>
 <body>
-
+<form action="#">
+    <h1>Task 1</h1>
+    <form>
+        <h2>Sign up to the app</h2>
+        <fieldset class="b">
+            <legend>Personal information:</legend>
+            <label for="fname">First name:</label>
+            <br>
+            <input type="text" id="fname" placeholder="Mickey">
+            <p>
+                <label for="lname">Last name:</label>
+                <br>
+                <input type="text" id="lname" placeholder="Mouse">
+            <p>
+                <label for="char">Self-presentation:</label>
+                <br>
+                <textarea id="char" rows="7" cols="20"
+                          placeholder="The cat was playing in the garden."></textarea>
+        </fieldset>
+        <br>
+        <fieldset class="a">
+            <legend>Car info (the brand):</legend>
+            <label>
+                <select>
+                    <option selected>Volvo</option>
+                    <option>Saab</option>
+                    <option>Fiat</option>
+                    <option>Audi</option>
+                </select>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Choose one:</legend>
+            <label>
+                <input type="radio" value="Male" name="sex" checked>Male
+                <br>
+                <input type="radio" value="Female" name="sex">Female
+                <br>
+                <input type="radio" value="Other" name="sex">Other
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Choose many:</legend>
+            <label>
+                <input type="checkbox" value="Bike" name="vehicle">I have a bike
+                <br>
+                <input type="checkbox" value="Car" name="vehicle">I have a car
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" name="sub">
+        <input type="reset" value="Cancel" name="canc">
+    </form>
+</form>
 </body>
 </html>
