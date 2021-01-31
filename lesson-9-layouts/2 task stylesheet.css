@@ -1,0 +1,60 @@
+nav {
+    display: inline-block;
+    background: #F8F8FF;
+    padding-left: 10px;
+    text-indent: -50px;
+    line-height: 6px;
+    padding-top: 2px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: darkviolet;
+    font-family: "Segoe Print", sans-serif;
+    font-size: 10px;
+}
+
+.dot:before {
+    content: "\2026";
+    font-size: 11px;
+    vertical-align: sub;
+    color:darkviolet;
+}
+
+nav .num, .num1 {
+    padding: 1px;
+    vertical-align: auto;
+}
+
+nav .num a {
+    border: 1px solid lightgray;
+    padding: 6px 8px 6px 8px;
+    border-radius: 5px;
+}
+
+nav .num1 a {
+    border: 1px solid darkviolet;
+    padding: 6px 8px 6px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+nav .num a:hover {
+    background: darkviolet;
+    color: white;
+}
+
+nav .num1 a:link {
+    background: darkviolet;
+}
+
+
