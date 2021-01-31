@@ -1,0 +1,82 @@
+p {
+    font-family: Arial, serif;
+}
+
+.hblock {
+    margin-right: 84%;
+    text-align: center;
+    line-height: 40px;
+    color: #eeeeee;
+    background: darkorange;
+}
+
+.h1 {
+    margin-right: 0;
+    margin-left: 0;
+    font-weight: bolder;
+}
+
+.block {
+    margin-top: -20px;
+    margin-right: 84%;
+    border: 3px darkorange solid;
+    border-top: 2px transparent solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.h2 {
+    margin-bottom: 0;
+    color: darkslategray;
+}
+
+.pr {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: darkslategray;
+}
+
+.pr sub, sup {
+    font-size: 14px;
+    color: darkslategray;
+}
+
+.str1, .str2, .str3, .str4 {
+    margin-bottom: 0;
+    color: gray;
+    font-size: 13px;
+}
+
+
+.str2, .str3, .str4 {
+    margin-top: 0;
+}
+
+.str1, .str3 {
+    background: lightblue;
+    padding-left: 6px;
+}
+
+.str2, .str4 {
+    background: lightgray;
+    padding-right: 24px;
+}
+
+.str1 {
+    margin-top: 15px;
+    padding-left: 1px;
+}
+
+.str4 {
+    padding-left: 1px;
+}
+
+.but {
+    background: darkorange;
+    color: #eeeeee;
+    line-height: 35px;
+}
