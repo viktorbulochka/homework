@@ -24,95 +24,25 @@ body {
 }
 
 
-.com1 {
+.com1, .com2 {
     position: absolute;
     top: 100px;
-    color: blue;
     width: 30%;
-    left: 15%;
     height: 75px;
     background: whitesmoke;
 }
 
-.com1 .rword1 {
-    position: absolute;
-    top: 7.5px;
-    left: 82.5%;
-    color: #2A8D9C;
-    font-size: 14px;
-}
-
-.com1 .lword1 {
-    position: absolute;
-    top: 7.5px;
-    left: 3%;
-    color: #2A8D9C;
-    font-size: 14px;
-}
-
-.line1 hr {
-    position: relative;
-    top: 20px;
-    border: none;
-    border-top: 2.5px dotted grey;
-    width: 90%
-}
-
-.text1 {
-    top: 35px;
-    position: absolute;
-    font-size: 12px;
-    width: 90%;
-    padding-left: 15px;
-    color: grey;
-}
-
-.com1:after {
-    content: '';
-    position: absolute;
-    border: 15px solid transparent;
-    border-right: 15px solid whitesmoke;
-    left: -30px;
-    top: 23px;
-}
-
-
-.pic1 img {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    left: -97px;
-    top: 0;
+.com1 {
+    color: blue;
+    left: 15%;
 }
 
 .com2 {
-    position: absolute;
-    top: 100px;
     color: whitesmoke;
-    width: 30%;
     right: 10%;
-    height: 75px;
-    background: whitesmoke;
 }
 
-.pic2 img {
-    position: relative;
-    width: 75px;
-    height: 75px;
-    left: -97px;
-    top: -18px
-}
-
-.com2:after {
-    content: '';
-    position: absolute;
-    border: 15px solid transparent;
-    border-right: 15px solid whitesmoke;
-    left: -30px;
-    top: 23px;
-}
-
-.com2 .rword2 {
+.com1 .rword1, .com2 .rword2 {
     position: absolute;
     top: 7.5px;
     left: 82.5%;
@@ -120,7 +50,7 @@ body {
     font-size: 14px;
 }
 
-.com2 .lword2 {
+.com1 .lword1, .com2 .lword2 {
     position: absolute;
     top: 7.5px;
     left: 10px;
@@ -128,20 +58,48 @@ body {
     font-size: 14px;
 }
 
-.line2 hr {
+.line1 hr, .line2 hr {
     position: relative;
     top: 20px;
     border: none;
     border-top: 2.5px dotted grey;
-    width: 90%;
+    width: 90%
 }
 
-.text2 {
+.text1, .text2 {
     top: 35px;
     position: absolute;
     font-size: 12px;
     width: 90%;
     padding-left: 15px;
     color: grey;
-
 }
+
+.com1:after, .com2:after {
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;
+    border-right: 15px solid whitesmoke;
+    left: -30px;
+    top: 23px;
+}
+
+.pic1 img, .pic2 img {
+    width: 75px;
+    height: 75px;
+    left: -97px;
+}
+
+.pic1 img {
+    position: absolute;
+    top: 0;
+}
+
+
+.pic2 img {
+    position: relative;
+    top: -18px
+}
+
+
+
