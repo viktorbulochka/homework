@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background: black;
+    height: 250px;
+    width: 100%;
+}
+
+.header {
+    display: block;
+    color: #3B83BD;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.header:before {
+    content: "what";
+    color: orange;
+}
+
+
+.com1, .com2 {
+    position: absolute;
+    top: 100px;
+    width: 30%;
+    height: 75px;
+    background: whitesmoke;
+}
+
+.com1 {
+    color: blue;
+    left: 15%;
+}
+
+.com2 {
+    color: whitesmoke;
+    right: 10%;
+}
+
+.com1 .rword1, .com2 .rword2 {
+    position: absolute;
+    top: 7.5px;
+    left: 82.5%;
+    color: #2A8D9C;
+    font-size: 14px;
+}
+
+.com1 .lword1, .com2 .lword2 {
+    position: absolute;
+    top: 7.5px;
+    left: 10px;
+    color: #2A8D9C;
+    font-size: 14px;
+}
+
+.line1 hr, .line2 hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    border-top: 2.5px dotted grey;
+    width: 90%
+}
+
+.text1, .text2 {
+    top: 35px;
+    position: absolute;
+    font-size: 12px;
+    width: 90%;
+    padding-left: 15px;
+    color: grey;
+}
+
+.com1:after, .com2:after {
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;
+    border-right: 15px solid whitesmoke;
+    left: -30px;
+    top: 23px;
+}
+
+.pic1 img, .pic2 img {
+    width: 75px;
+    height: 75px;
+    left: -97px;
+}
+
+.pic1 img {
+    position: absolute;
+    top: 0;
+}
+
+
+.pic2 img {
+    position: relative;
+    top: -18px
+}
+
+
+
