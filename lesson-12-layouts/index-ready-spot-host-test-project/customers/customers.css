@@ -1,0 +1,67 @@
+.customer-1, .customer-2 {
+    margin-top: 85px;
+    width: 100%;
+}
+
+.customer-1 {
+    text-align: right;
+}
+
+.customer-2 {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.customer-1:after, .customer-2:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.customer-1-img, .customer-2-img {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.customer-1-img {
+    float: left;
+}
+
+.customer-2-img {
+    float: right;
+}
+
+.customer-1-info, .customer-2-info {
+    width: 35%;
+    padding: 15px;
+    margin: 15% 0 0;
+}
+
+.customer-1-info {
+    float: right;
+}
+
+.customer-2-info {
+    float: left;
+}
+
+.customer-1-name, .customer-2-name {
+    color: rgb(208, 66, 43);
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.customer-1-spec, .customer-2-spec {
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.customer-1-quote, .customer-2-quote {
+    font-size: 20px;
+    width: 100%;
+}
+
