@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Task 2</title>
 </head>
-<body>
 
+<body>
+<script>
+    'use strict'
+
+    /////////////////////////// Вариант №1
+
+    function myPow1(a, b) {
+        var c = a ** b;
+        console.log(c);
+    }
+
+    myPow1(4, 6);
+
+    /////////////////////////// Вариант №2
+
+    function myPow2() {
+        var a = prompt('Введите первое число:')
+        var b = prompt('Введите второе число:')
+        var c = a ** b;
+        alert('Ваш результат: '+ c);
+    }
+
+    myPow2();
+</script>
 </body>
+
 </html>
