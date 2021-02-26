@@ -8,7 +8,18 @@
 
 <body>
 <script>
-    
+    'use strict'
+
+    function FuddyDuddy (a, b) {
+        for (var i = a; i <= b; i++) {
+            if ((i % 3 === 0)(i % 5 === 0)) {
+                console.log(i + ' Fuddy-Duddy');
+                continue;
+            }
+            console.log(i);
+        }
+    }
+    FuddyDuddy (1,100);
 </script>
 </body>
 
