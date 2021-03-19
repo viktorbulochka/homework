@@ -1,0 +1,17 @@
+
+.header {
+    text-align: center;
+}
+
+
+.form {
+    display: inline-block;
+    border: black 1px solid;
+    padding: 0.3rem;
+    background: ghostwhite;
+}
+
+.form_fieldset {
+    background: whitesmoke;
+    margin-bottom: 0.5rem;
+}

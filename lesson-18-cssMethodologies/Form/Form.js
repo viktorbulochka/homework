@@ -1,0 +1,3 @@
+function Thanks() {
+alert("Спасибо")
+}
